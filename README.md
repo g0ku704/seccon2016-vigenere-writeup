@@ -57,9 +57,9 @@ Since the algorithm is Vigenere, we guessed that the 8th character is <b>E</b> a
 In Vigenere algorithm the key is repeated by the length of plaintext.
 So we divided plaintext by 12 which is keys length.
 
-key:    VIGENERExxxxVIGENERExxxxVIGENERExxxxVIGENER
-cipher: LMIG}RPEDOEEWKJIQIWKJWMNDTSR}TFVUFWYOCBAJBQ
-plain:  SECCON{AxxxxBCDEDEFGxxxxKLMNOPQRxxxxVWXYYZ}
+key:    VIGENERExxxxVIGENERExxxxVIGENERExxxxVIGENER<b/>
+cipher: LMIG}RPEDOEEWKJIQIWKJWMNDTSR}TFVUFWYOCBAJBQ<b/>
+plain:  SECCON{AxxxxBCDEDEFGxxxxKLMNOPQRxxxxVWXYYZ}<b/>
 
 We saw that the missing parts of plain text are relevant to neighbor characters. 
 * In the first chunk the characters will be some sequence of A,B,C
